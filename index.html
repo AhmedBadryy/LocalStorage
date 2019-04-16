@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/all.min.css"/>
+        <link rel="stylesheet" href="css/index_style.css"/>
+    </head>
+    <body>
+
+        <div class="container py-4">
+           
+            <div class="form-group"> 
+                <label>userName :</label>
+                <input id="userName" class="form-control"/>
+                <div class="alert alert-danger mt-2"> user name must be 8 letters only</div>
+
+
+            </div>
+            <div class="form-group"> 
+                <label>userPhone :</label>
+                <input id="userPhone" class="form-control"/>
+                <div class="alert alert-danger mt-2"> user phone must be 11 numbers</div>
+
+
+            </div>
+            <div class="form-group"> 
+                <label>userAge :</label>
+                <input id="userAge" class="form-control"/>
+                <div class="alert alert-danger mt-2"> user age must be between 10-80 </div>
+
+
+            </div>
+            <div class="form-group"> 
+                <label>userEmail :</label>
+                <input id="userEmail" class="form-control"/>
+                <div class="alert alert-danger mt-2">enter a vaild email</div>
+
+
+            </div>
+            <button onclick="addUser()" class="btn btn-info float-right"> Register </button>
+                 
+            <div class="clearfix"> </div>
+            <table class="table table striped mt-5 ">
+               
+             <thead> 
+                  
+                <th> userName :</th>
+                <th> userPhone :</th>
+                <th> userAge :</th>
+                <th> userEmail :</th>
+
+             </thead>
+                    <tbody id="tableBody">
+
+                    </tbody>
+
+
+
+            </table>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/mina.js"></script>
+    </body>
+</html>
